@@ -21,4 +21,8 @@ interface Args {
     initOptions?: Partial<InitOptions>
 }
 
-export const getPayloadClient = async () => { }
+export const getPayloadClient = async ({
+    initOptions,
+}: Args = {}) => {
+
+}
